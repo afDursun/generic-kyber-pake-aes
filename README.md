@@ -1,33 +1,25 @@
-# Kyber.PAKE
-all: \
-	test_kyber512 \
-	test_kyber768 \
-	test_kyber1024 \
-	test_speed512 \
-	test_speed768 \
-	test_speed1024 \
+# Generic Kyber.PAKE AES
 
-pake_kyber512: \
-  test_kyber512 \
-
-pake_kyber768: \
-  test_kyber768 \
-
-pake_kyber1024: \
-  test_kyber1024 \
-
-speed_kyber512: \
-  test_speed512 \
-
-speed_kyber768: \
-  test_speed768 \
-
-speed_kyber1024: \
-  test_speed1024 \  
+[![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/afDursun/generic-kyber-pake-aes?include_prereleases)](https://img.shields.io/github/v/release/navendu-pottekkat/awesome-readme?include_prereleases)
+[![GitHub last commit](https://img.shields.io/github/last-commit/afDursun/generic-kyber-pake-aes)](https://img.shields.io/github/last-commit/navendu-pottekkat/awesome-readme)
+[![GitHub issues](https://img.shields.io/github/issues-raw/afDursun/generic-kyber-pake-aes)](https://img.shields.io/github/issues-raw/navendu-pottekkat/awesome-readme)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/afDursun/generic-kyber-pake-aes)](https://img.shields.io/github/issues-pr/navendu-pottekkat/awesome-readme)
+[![GitHub](https://img.shields.io/github/license/afDursun/generic-kyber-pake-aes)](https://img.shields.io/github/license/navendu-pottekkat/awesome-readme)
 
 
-## Acknowledgment
+## Usage
 
-- This research was partially supported by TUBITAK under Grant No. 121R006
+To build all applications
+```
+make all
+```
 
-  
+To build only the main application
+```
+make kyber_pake
+```
+
+To build only the performance result
+```
+make kyber_pake_speed
+```
